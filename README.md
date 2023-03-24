@@ -11,3 +11,12 @@ On Raspberry 3B+ 2018 without Desktop OS, Python 3.9 and OpenCV, I no longer hav
 ```
 python3 Count.py --host cam1.host cam2.host camn.host  --w 640 --h 480 --track False --lup 3.5 --ldown 4.0 --elimit 0.3
 ```
+
+--host => Camera host list. Can be IP, hostname or local hostname
+--w => width of show video
+--h => height of show video
+--track => Tracking drown on vide. True or False
+## Used to define count area
+--lup => Line Up position
+--ldown => Line down position
+--elimit => External Line limit between count area lines
