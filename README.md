@@ -15,7 +15,7 @@ python3 Count.py --host cam1.host cam2.host camn.host  --w 640 --h 480 --track F
 - --host => Camera host list. Can be IP, hostname or local hostname
 - --w => width of show video
 - --h => height of show video
-- --track => Tracking drown on vide. True or False
+- --track => Tracking people and draw lines on frame. True or False
 
 ### Used to define the count area
 - --lup => Line Up position
