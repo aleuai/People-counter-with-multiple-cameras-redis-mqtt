@@ -21,3 +21,6 @@ python3 Count.py --host cam1.host cam2.host camn.host  --w 640 --h 480 --track F
 - --lup => Line Up position
 - --ldown => Line down position
 - --elimit => External Line limit between count area lines
+## The magic
+
+![](video.gif)
